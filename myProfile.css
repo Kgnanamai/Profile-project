@@ -1,0 +1,85 @@
+.main {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+}
+
+
+.outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-direction: column;
+    height: 30rem;
+    width: 40rem;
+
+
+}
+.outer img {
+    align-content: flex-start;
+    align-content: center;
+    width: 120px;
+    height: 120px;
+    border: 5px solid red;
+    padding: 5px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 28rem;
+}
+
+.inner {
+    display: flex;
+
+    background-color: #E9E9F1;
+    flex-direction: column;
+    border-radius: 20px;
+    height: 23rem;
+    width: 20rem;
+    box-shadow:  10px 10px rgb(187, 178, 178);
+}
+
+.inner h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.firstbox {
+    background: #E9E9F1;
+    width: 40%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0 0 0 20px;
+    border-right: 2px solid black;
+}
+.secondbox {
+    background: #E9E9F1;
+    width: 40%;
+
+    margin: -85px 10px 0 180px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.inner button {
+
+    border: none;
+    border-radius: 10px;
+
+    border: 2px solid blue;
+    color: blue;
+
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 50px;
+    width: 10rem;
+    margin: 20px 10px 70px 75px;
+
+
+}
